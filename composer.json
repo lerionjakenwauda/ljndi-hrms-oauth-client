@@ -1,0 +1,38 @@
+{
+    "name": "ljndi/hrms-oauth-client",
+    "description": "OAuth 2.1 PKCE client for Continue with LJNDI HRMS",
+    "type": "library",
+    "license": "proprietary",
+    "keywords": [
+        "ljndi",
+        "hrms",
+        "oauth",
+        "oauth2",
+        "pkce",
+        "sso",
+        "identity"
+    ],
+    "homepage": "https://auth.lerionjakenwauda.com",
+    "authors": [
+        {
+            "name": "Lerion Jake Nwauda Digital Innovations Ltd",
+            "homepage": "https://lerionjakenwauda.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/lerionjakenwauda/ljndi-hrms-oauth-client/issues",
+        "source": "https://github.com/lerionjakenwauda/ljndi-hrms-oauth-client"
+    },
+    "require": {
+        "php": "^8.1",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ljndi\\HrmsOAuth\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
